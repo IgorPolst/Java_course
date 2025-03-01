@@ -1,9 +1,10 @@
+
 import java.util.concurrent.*;
 
 class Philosopher implements Runnable {
 
     private final int id;
-    private final Semaphore leftFork; // Semaphore - предоставляет механизм для управления доступом к ресурсам с использованием счетчиков.
+    private final Semaphore leftFork;
     private final Semaphore rightFork;
 
     public Philosopher(int id, Semaphore leftFork, Semaphore rightFork) {
@@ -19,7 +20,7 @@ class Philosopher implements Runnable {
                 think();
                 eat();
             }
-        } catch (InterruptedException e) { // сигнализирует о том, что поток был прерван во время ожидания операции
+        } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
     }
@@ -30,15 +31,14 @@ class Philosopher implements Runnable {
     }
 
     private void eat() throws InterruptedException {
-        // Сначала берем левую вилку
+
         leftFork.acquire(); //acquire() - позволяет потоку получить разрешение от семафора, блокируя поток, если разрешения больше нет.
-        // Затем берем правую вилку
+
         rightFork.acquire();
 
         System.out.println("Philosopher " + id + " is eating.");
         Thread.sleep((long) (Math.random() * 1000));
 
-        // Освобождаем вилки
         rightFork.release(); // - `release()`: возвращает разрешение в семафор, увеличивая счетчик.
         leftFork.release();
         System.out.println("Philosopher " + id + " has finished eating.");
