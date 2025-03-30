@@ -46,4 +46,15 @@ public class Textbook implements Books {
     public void setTitle(String title) {
         this.title = title;
     }
+
+
+    public void onInit(){
+        price = 800;
+        System.out.println("Base price: 800");
+    }
+
+
+    public void onDestroy(){
+    System.out.println("Sales is over!");
+    }
 }
