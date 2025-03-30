@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    <context:property-placeholder location="classpath:Math_for_programming.properties"/>-->
+
+    <bean id="new_book" class="com.example.springEducation.Textbook">
+<!--        <property name="num_of_pages" value="${new_book.num_of_pages}"/>-->
+<!--        <property name="price" value="${new_book.price}"/>-->
+<!--        <property name="title" value="${new_book.title}"/>-->
+
+        <property name="num_of_pages" value="2000"/>
+        <property name="price" value="980.2"/>
+        <property name="title" value="Math_for_programming.properties"/>
+    </bean>
+
+
+    <bean id="book_show" class="com.example.springEducation.Books_show">
+        <constructor-arg ref="new_book"/>
+    </bean>
+
+</beans>
+
