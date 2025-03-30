@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="student" class="com.example.springEducation.Person">
+        <constructor-arg value="Maks"/>
+        <constructor-arg value="Tramp" />
+        <constructor-arg value="1999, 06, 13" />
+    </bean>
+</beans>
