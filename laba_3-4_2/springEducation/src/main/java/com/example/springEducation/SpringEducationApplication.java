@@ -11,11 +11,11 @@ public class SpringEducationApplication {
 	);
 	public static void main(String[] args) {
 
-		Books book = context.getBean("new_book_default", Books.class)
+		Books book = context.getBean("new_book_default", Books.class);
 		Books_show default_book = new Books_show(book);
 		default_book.show();
 
-		
+
 		Books_show books_show = context.getBean("book_show", Books_show.class);
 		System.out.println(books_show);
 		books_show.show();
