@@ -1,13 +1,26 @@
 package com.example.springEducation;
 
-public class Textbook implements Books {
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TextBook implements Books {
+    @Value("${textBook.num_of_pages}")
     private int num_of_pages;
+    @Value("${textBook.price}")
     private float price;
+    @Value("${textBook.title}")
     private String title;
 
-    public Textbook() {}
+    @Autowired
+    public TextBook() {
+        num_of_pages = 0;
+        price = 0;
+        title = "default";
+    }
 
-    public Textbook(int num_of_pages, float price, String title) {
+    public TextBook(int num_of_pages, float price, String title) {
         this.num_of_pages = num_of_pages;
         this.price = price;
         this.title = title;
@@ -19,15 +32,15 @@ public class Textbook implements Books {
     }
 
     @Override
-    public double estimated_popularity() {
+    public double estimatedPopularity() {
         return (float)Math.round((getWeight() * this.title.length())/price*1000.0)/1000.0;
     }
 
-    public int getNum_of_pages() {
+    public int getnum_of_pages() {
         return num_of_pages;
     }
 
-    public void setNum_of_pages(int num_of_pages) {
+    public void setnum_of_pages(int num_of_pages) {
         this.num_of_pages = num_of_pages;
     }
 
@@ -47,13 +60,13 @@ public class Textbook implements Books {
         this.title = title;
     }
 
-
+    @Override
     public void onInit(){
         price = 800;
         System.out.println("Base price: 800");
     }
 
-
+    @Override
     public void onDestroy(){
     System.out.println("Sales is over!");
     }
