@@ -15,9 +15,6 @@ public class TextBook implements Books {
 
     @Autowired
     public TextBook() {
-        num_of_pages = 0;
-        price = 0;
-        title = "default";
     }
 
     public TextBook(int num_of_pages, float price, String title) {

@@ -6,21 +6,18 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ComicBook implements Books{
-//    @Value("${comicBook.numOfPages}")
+    @Value("${comicBook.numOfPages}")
     private int numOfPages;
-//    @Value("${comicBook.price}")
+    @Value("${comicBook.price}")
     private float price;
-//    @Value("${comicBook.title}")
+    @Value("${comicBook.title}")
     private String title;
-//    @Value("${comicBook.author}")
+    @Value("${comicBook.author}")
     private String author;
 
 
+
     public ComicBook() {
-        price = 1000;
-        numOfPages = 4;
-        title = "default";
-        author = "empty";
     }
 
     public ComicBook(int numOfPages, float price, String title, String author) {
