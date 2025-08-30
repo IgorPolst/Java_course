@@ -5,12 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c16f1867-c97a-4217-b0a3-8ce8db7de324" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laba_7_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/codebase_backup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/codebase_backup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/export.sh" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/export.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/Lab7Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/Lab7Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/display/BookIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/display/BookIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/model/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/model/Figure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/model/impl/AbstractBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/model/impl/AbstractBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/model/impl/HorrorBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/model/impl/HorrorBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/model/impl/ScienceFictionBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/model/impl/ScienceFictionBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/java/com/example/laba_7_2/model/impl/StoryBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/java/com/example/laba_7_2/model/impl/StoryBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/templates/all-books.html" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/resources/templates/all-books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/templates/book-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/resources/templates/book-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/templates/calculator-result.html" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/resources/templates/calculator-result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab/src/test/java/com/example/laba_7_2/Lab3ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/laba_7/src/test/java/com/example/laba_7_2/Lab3ApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +64,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "IgorPolst"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IgorPolst&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IgorPolst/Java_course.git",
-    "accountId": "9cdb52ab-99b0-40d6-9543-e1c0297ddde3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IgorPolst/Java_course.git&quot;,
+    &quot;accountId&quot;: &quot;9cdb52ab-99b0-40d6-9543-e1c0297ddde3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="320VFvShzerJbYkCQJDP9uWVfwE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,7 +95,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHELLCHECK.PATH": "C:\\Users\\GT Turbo S\\AppData\\Roaming\\JetBrains\\IdeaIC2025.1\\plugins\\Shell Script\\shellcheck.exe",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/GT Turbo S/OneDrive/Рабочий стол/GitHub/Java_course/laba_7_2"
   }
 }]]></component>
   <component name="RunManager">

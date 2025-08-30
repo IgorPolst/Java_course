@@ -35,7 +35,6 @@ public class AppConfig {
         book.setAvailable(defaultAvailable);
 
         List<String> tags = new ArrayList<>(Arrays.asList("adventure","coming-of-age","fantasy"));
-
         book.setTags(tags);
 
         book.setPublishDate(new Date(1577836800000L)); // Jan 1, 2020
@@ -105,10 +104,7 @@ public class AppConfig {
         book.setContainsSupernaturalElements(true);
         book.setAvailable(false);
 
-        List<String> tags = new ArrayList<>();
-        tags.add("horror");
-        tags.add("supernatural");
-        tags.add("thriller");
+        List<String> tags = new ArrayList<>(Arrays.asList("horror","supernatural","thriller"));
         book.setTags(tags);
 
         book.setPublishDate(new Date(1609459200000L)); // Jan 1, 2021
